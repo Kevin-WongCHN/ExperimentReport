@@ -28,9 +28,9 @@
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">现有实验 <span class="caret"></span></a>
                     <ul class="dropdown-menu">
-                        <li><a href="MillikanOilDrop.jsp">密里根油滴实验</a></li>
-                        <li><a href="#">待增加</a></li>
-                        <li><a href="#">待增加</a></li>
+                        <li><a href="MillikanOilDrop.jsp">密立根油滴实验</a></li>
+                        <li><a href="MeasurementOfSound.jsp">声速的测量</a></li>
+                        <li><a href="#">持续增加中</a></li>
                     </ul>
                 </li>
             </ul>

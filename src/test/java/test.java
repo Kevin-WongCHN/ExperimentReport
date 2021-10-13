@@ -1,11 +1,18 @@
 import org.junit.jupiter.api.Test;
+
+import java.util.ArrayList;
 import java.util.regex.*;
 import java.io.File;
 
 public class test {
     @Test
     public void test1(){
-        File f=new File("//usr//local//tomcat9//webapps//ExperimentReport-1.0-SNAPSHOT//downloads//MillikanOilDrop");
-        System.out.println(f.getPath());
+        ArrayList<Integer> integers = new ArrayList<>();
+        integers.add(1);
+        integers.add(2);
+        Integer[] integers1 = integers.toArray(new Integer[2]);
+        for (Integer integer : integers1) {
+            System.out.println(integer);
+        }
     }
 }

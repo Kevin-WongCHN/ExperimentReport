@@ -10,7 +10,7 @@ import java.io.BufferedReader;
 import java.io.File;
 import java.io.IOException;
 import java.io.InputStreamReader;
-@WebServlet("/pdf")
+@WebServlet("/pd")
 public class GeneratePDF extends HttpServlet {
 
     @Override
