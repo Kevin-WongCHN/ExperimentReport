@@ -15,7 +15,7 @@
     <script src="bootstrap-3.4.1-dist/js/bootstrap.min.js"></script>
 </head>
 <body>
-<a class="btn btn-info" href="index.jsp" role="button">返回首页</a>
+<a class="btn btn-default" href="index.jsp" role="button">返回首页</a>
 <div class="row">
     <div class="col-sm-6 col-md-4">
         <div class="thumbnail">

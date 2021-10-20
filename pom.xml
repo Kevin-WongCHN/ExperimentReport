@@ -6,7 +6,7 @@
 
     <groupId>com.yiming</groupId>
     <artifactId>ExperimentReport</artifactId>
-    <version>1.0.1</version>
+    <version>1.0.2</version>
     <name>ExperimentReport</name>
     <packaging>war</packaging>
 

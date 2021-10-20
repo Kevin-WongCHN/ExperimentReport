@@ -15,16 +15,19 @@
     <script src="bootstrap-3.4.1-dist/js/bootstrap.min.js"></script>
 </head>
 <body>
+<a class="btn btn-default" href="index.jsp" role="button">返回首页</a>
 <div class="panel panel-default">
     <div class="panel-heading">V1.0.2</div>
     <div class="panel-body">
         1.底层代码灵活性提高<br/>
         2.增加声速的测量实验 <br/>
+        <kbd class="pull-right">2021-10-13</kbd>
     </div>
     <div class="panel-heading">V1.0.1</div>
     <div class="panel-body">
         1.增加了移动端适配<br/>
         2.修改了由于前后空格导致的数据错误 <br/>
+        <kbd class="pull-right">2021-10-12</kbd>
     </div>
 </div>
 <div class="panel panel-default">
@@ -32,8 +35,9 @@
     <div class="panel-body">
         珍藏V1.0.0版，大物实验报告参考横空出世，你期待了吗 <br/>
         第一个实验：密立根油滴实验
+        <kbd class="pull-right">2021-10-10</kbd>
     </div>
 </div>
-<a class="btn btn-info" href="index.jsp" role="button">返回首页</a>
+
 </body>
 </html>

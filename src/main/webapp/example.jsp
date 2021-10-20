@@ -20,12 +20,12 @@
     <script src="bootstrap-3.4.1-dist/js/bootstrap.min.js"></script>
 </head>
 <body>
-<a class="btn btn-info" href="index.jsp" role="button">返回首页</a>
+<a class="btn btn-default" href="index.jsp" role="button">返回首页</a>
 <h3><span class="label label-default">请使用浏览器，输入数据后将提供一份pdf数据报告</span></h3>
 <form method="post" action="pdf">
     <div class="form-group">
         <label for="exampleInput">范例（请使用英文半角逗号）</label>
-        <input type="email" class="form-control" id="exampleInput" placeholder="10,20,30,40,50">
+        <input type="email" class="form-control" id="exampleInput" disabled placeholder="10,20,30,40,50">
     </div>
     <% for (int i = 1; i <=inputNumint; i++) { %>
 

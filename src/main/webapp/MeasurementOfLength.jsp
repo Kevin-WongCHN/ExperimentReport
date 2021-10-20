@@ -3,7 +3,7 @@
 <%@ page import="java.util.Properties" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%
-    String experimentName="MeasurementOfSound";
+    String experimentName="MeasurementOfLength";
     session.setAttribute("experimentName",experimentName);
     InputStream propertiesStream = Generate.class.getClassLoader().getResourceAsStream(experimentName+".properties");
     Properties properties = new Properties();
@@ -39,7 +39,7 @@
 
     <button type="submit" class="btn btn-success btn-block">提交</button>
 </form>
-<% for (int i = 1; i <=inputNumint; i++) { %>
+    <% for (int i = 1; i <=inputNumint; i++) { %>
 
 <% } %>
 </body>

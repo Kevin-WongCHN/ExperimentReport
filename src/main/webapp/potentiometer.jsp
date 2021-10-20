@@ -3,7 +3,7 @@
 <%@ page import="java.util.Properties" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%
-    String experimentName="MeasurementOfSound";
+    String experimentName="potentiometer";
     session.setAttribute("experimentName",experimentName);
     InputStream propertiesStream = Generate.class.getClassLoader().getResourceAsStream(experimentName+".properties");
     Properties properties = new Properties();
@@ -44,3 +44,4 @@
 <% } %>
 </body>
 </html>
+

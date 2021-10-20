@@ -30,7 +30,9 @@
                     <ul class="dropdown-menu">
                         <li><a href="MillikanOilDrop.jsp">密立根油滴实验</a></li>
                         <li><a href="MeasurementOfSound.jsp">声速的测量</a></li>
-                        <li><a href="#">持续增加中</a></li>
+                        <li><a href="MeasurementOfLength.jsp">长度的测量</a></li>
+                        <li><a href="potentiometer.jsp">电位计的原理与使用</a></li>
+                        <li><a href="#">持续增加中...</a></li>
                     </ul>
                 </li>
             </ul>

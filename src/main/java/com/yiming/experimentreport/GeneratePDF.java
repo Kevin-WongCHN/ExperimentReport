@@ -51,7 +51,7 @@ public class GeneratePDF extends HttpServlet {
         String oil5t = req.getParameter("oil5t").trim();
         String[] t5 = oil5t.split(",");
 
-        String[] cmdPython={"/usr/local/Python3/bin/python3","/usr/local/tomcat9/webapps/ExperimentReport/scripts/GenerateExcel.py"
+        String[] cmdPython={"/usr/local/Python3/bin/python3","                                                "
                 ,u1[0],u1[1],u1[2],u1[3],u1[4]
                 ,u2[0],u2[1],u2[2],u2[3],u2[4]
                 ,u3[0],u3[1],u3[2],u3[3],u3[4]
